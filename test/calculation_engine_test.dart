@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:a1_battery/services/calculation_engine.dart';
-import 'package:a1_battery/models/invoice_item_model.dart';
 
 void main() {
   group('CalculationEngine Tests', () {
