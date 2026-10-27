@@ -2,24 +2,22 @@
 
 class AppConstants {
   // ── Shop Details ──────────────────────────────────────────────
-  static const String shopName = 'A1 BATTERY & POWER ENTERPRISES';
-  static const String shopSubtitle = 'Automobile & Inverter Batteries';
-  static const String shopAddress =
-      'No. 2, Salem Main Road, Ulundurpet, Kallakurichi District, Tamil Nadu - 606107';
-  static const String shopAddressSingleLine =
-      'No. 2, Salem Main Road, Ulundurpet, Kallakurichi - 606107';
-  static const String gstin = '33AAAAA0000A1Z5'; // Sample GSTIN format (State code 33: Tamil Nadu)
-  static const String stateCode = '33';
-  static const String state = 'Tamil Nadu';
-  static const String phone = '+91 98765 43210';
-  static const String email = 'support@a1battery.example.com';
+  static const String shopName = '<Your Shop Name>'; // Replace with actual shop name
+  static const String shopSubtitle = '<Your Shop Subtitle>'; // Replace with subtitle
+  static const String shopAddress = '<Your Shop Full Address>'; // Replace with full address
+  static const String shopAddressSingleLine = '<Your Shop Address Single Line>'; // Replace with concise address
+  static const String gstin = '<Your GSTIN>'; // Replace with your GSTIN
+  static const String stateCode = '<State Code>'; // e.g., '33'
+  static const String state = '<State Name>'; // e.g., 'Tamil Nadu'
+  static const String phone = '<Contact Phone>'; // e.g., '+91 98765 43210'
+  static const String email = '<Contact Email>'; // e.g., 'support@yourdomain.com'
 
   // ── Bank Details (Sample/Template for Invoicing) ───────────────
-  static const String bankAccountHolder = 'A1 BATTERY & POWER';
-  static const String bankName = 'HDFC Bank';
-  static const String bankAccount = '50100000000000';
-  static const String bankIfsc = 'HDFC0000001';
-  static const String bankBranch = 'MAIN BRANCH';
+  static const String bankAccountHolder = '<Bank Account Holder>'; // e.g., your business name
+  static const String bankName = '<Bank Name>'; // e.g., 'HDFC Bank'
+  static const String bankAccount = '<Bank Account Number>'; // e.g., '50100000000000'
+  static const String bankIfsc = '<IFSC Code>'; // e.g., 'HDFC0000001'
+  static const String bankBranch = '<Bank Branch>'; // e.g., 'MAIN BRANCH'
 
   // ── GST Config ───────────────────────────────────────────────
   static const double gstRatePercent = 18.0;
